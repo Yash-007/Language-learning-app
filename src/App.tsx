@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
-import { Suspense, lazy } from 'react'
+import { Suspense, lazy } from 'react';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Header from './components/Header';
 
 const Home = lazy(()=> import('./components/Home'));
 const Quiz = lazy(()=> import('./components/Quiz'));

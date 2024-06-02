@@ -1,10 +1,10 @@
 import { ArrowBack, VolumeUp } from "@mui/icons-material";
 import { Button, Container, Stack, Typography } from "@mui/material";
-import { useEffect, useState } from "react"
-import { useNavigate, useSearchParams } from "react-router-dom";
-import { translateWords } from "../utils/features";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { clearState, getWordsFail, getWordsRequest, getWordsSuccess } from "../redux/slices";
+import { translateWords } from "../utils/features";
 import Loader from "./Loader";
 
 function Learning() {

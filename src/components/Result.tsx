@@ -6,9 +6,9 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import { useSelector, useDispatch } from "react-redux";
-import { clearState } from "../redux/slices";
+import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { clearState } from "../redux/slices";
 import { countMatchingElements } from "../utils/features";
 
 const Result = () => {
